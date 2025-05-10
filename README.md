@@ -31,7 +31,7 @@ Get started quickly by deploying to Heroku with just one click:
 
 - Clone the Repository:  
   ```bash
-  git clone https://github.com/TheTeamVivek/YukkiMusic && cd YukkiMusic
+  git clone https://github.com/rez123098/YukkiMusic && cd YukkiMusic
   ```
   
 
