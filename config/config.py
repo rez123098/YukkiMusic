@@ -20,17 +20,17 @@ def is_true(value: str) -> bool:
 
 # Get it from my.telegram.org
 
-API_ID = int(getenv("API_ID", ""))
+API_ID = int(getenv("26444187", ""))
 
-API_HASH = getenv("API_HASH")
+API_HASH = getenv("e4997d5c26c78993920a6973ba95cc97")
 
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("7789194833:AAFfIq-fCUxw-rDTHB1GgVf3v7Kvx6S6LbA")
 
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("mongodb+srv://rez120938:rezqi2011@cluster0.b5jd623.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0", None)
 
 # Your cookies pasted link on batbin.me
 # you can skip if you are adding cookies
