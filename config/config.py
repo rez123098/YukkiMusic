@@ -133,9 +133,9 @@ GITHUB_REPO = getenv("GITHUB_REPO", "https://github.com/TheTeamVivek/YukkiMusic"
 
 
 # Spotify Client.. Get it from https://developer.spotify.com/dashboard
-SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "19609edb1b9f4ed7be0c8c1342039362")
+SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "2b62dfdb08fd4693a3a53b6cbafd7bfb")
 SPOTIFY_CLIENT_SECRET = getenv(
-    "SPOTIFY_CLIENT_SECRET", "409e31d3ddd64af08cfcc3b0f064fcbe"
+    "SPOTIFY_CLIENT_SECRET", "2fbef152887a45ef9e96b52e00ef973e"
 )
 
 
@@ -170,7 +170,7 @@ SET_CMDS = is_true(getenv("SET_CMDS", "False"))
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @YukkiStringBot
 # Get the environment variable with a default value of an empty string
-raw_sessions = getenv("STRING_SESSIONS")
+raw_sessions = getenv("1BZWaqwUAUHKh9h--XA-NdXU-9SuzoYaAAzOOrgN2DGqkImAR-hPklyFld6crRYbXqjbzFApaWNH365cFA1SeGde-5KGx3yt-VgluHBKt1ya7KM-sQSJpxIMLVU3Gz5a9pfG3wc9JFdID8fRd-sUpI0qLkld1QJA9pRutN-7q-ajqTjhxfb9l5X3w1w-8bTc3PRfN4UsfZt7PKJELx8A3agorI82FRJ840hejrYcY0m3puGNFQTQRkzK3BiRnERHmeUMAp61jrYYNo4dedWYqqaVG8X-tCq4_o6PBKz5wyGcYMNRu3gXuzqSDF6obExpsJLlNsZ9Pp5HXOkHSHTxS0XH3kkdKomk=")
 
 # Split the sessions only if raw_sessions is not empty
 STRING_SESSIONS = list(map(str.strip, raw_sessions.split(","))) if raw_sessions else []
