@@ -20,7 +20,7 @@ def is_true(value: str) -> bool:
 
 # Get it from my.telegram.org
 
-API_ID = int(getenv("26444187", ""))
+API_ID = int(getenv("API_ID", "26444187"))
 
 API_HASH = getenv("e4997d5c26c78993920a6973ba95cc97")
 
